@@ -1,0 +1,22 @@
+[
+  {"id": "hyderabad", "name": "Hyderabad", "lat": 17.3850, "lng": 78.4867, "airport": "HYD", "station": "Secunderabad (SC)"},
+  {"id": "bengaluru", "name": "Bengaluru", "lat": 12.9716, "lng": 77.5946, "airport": "BLR", "station": "KSR Bengaluru (SBC)"},
+  {"id": "chennai", "name": "Chennai", "lat": 13.0827, "lng": 80.2707, "airport": "MAA", "station": "Chennai Central (MAS)"},
+  {"id": "mumbai", "name": "Mumbai", "lat": 19.0760, "lng": 72.8777, "airport": "BOM", "station": "Mumbai CSMT (CSMT)"},
+  {"id": "delhi", "name": "Delhi", "lat": 28.6139, "lng": 77.2090, "airport": "DEL", "station": "New Delhi (NDLS)"},
+  {"id": "kolkata", "name": "Kolkata", "lat": 22.5726, "lng": 88.3639, "airport": "CCU", "station": "Howrah (HWH)"},
+  {"id": "pune", "name": "Pune", "lat": 18.5204, "lng": 73.8567, "airport": "PNQ", "station": "Pune (PUNE)"},
+  {"id": "ahmedabad", "name": "Ahmedabad", "lat": 23.0225, "lng": 72.5714, "airport": "AMD", "station": "Ahmedabad (ADI)"},
+  {"id": "kochi", "name": "Kochi", "lat": 9.9312, "lng": 76.2673, "airport": "COK", "station": "Ernakulam (ERS)"},
+  {"id": "jaipur", "name": "Jaipur", "lat": 26.9124, "lng": 75.7873, "airport": "JAI", "station": "Jaipur (JP)"},
+  {"id": "lucknow", "name": "Lucknow", "lat": 26.8467, "lng": 80.9462, "airport": "LKO", "station": "Lucknow (LKO)"},
+  {"id": "chandigarh", "name": "Chandigarh", "lat": 30.7333, "lng": 76.7794, "airport": "IXC", "station": "Chandigarh (CDG)"},
+  {"id": "visakhapatnam", "name": "Visakhapatnam", "lat": 17.6868, "lng": 83.2185, "airport": "VTZ", "station": "Visakhapatnam (VSKP)"},
+  {"id": "vijayawada", "name": "Vijayawada", "lat": 16.5062, "lng": 80.6480, "airport": "VGA", "station": "Vijayawada (BZA)"},
+  {"id": "bhubaneswar", "name": "Bhubaneswar", "lat": 20.2961, "lng": 85.8245, "airport": "BBI", "station": "Bhubaneswar (BBS)"},
+  {"id": "nagpur", "name": "Nagpur", "lat": 21.1458, "lng": 79.0882, "airport": "NAG", "station": "Nagpur (NGP)"},
+  {"id": "coimbatore", "name": "Coimbatore", "lat": 11.0168, "lng": 76.9558, "airport": "CJB", "station": "Coimbatore (CBE)"},
+  {"id": "goa", "name": "Goa", "lat": 15.4989, "lng": 73.8278, "airport": "GOI", "station": "Madgaon (MAO)"},
+  {"id": "varanasi", "name": "Varanasi", "lat": 25.3176, "lng": 82.9739, "airport": "VNS", "station": "Varanasi (BSB)"},
+  {"id": "udaipur", "name": "Udaipur", "lat": 24.5854, "lng": 73.7125, "airport": "UDR", "station": "Udaipur City (UDZ)"}
+]

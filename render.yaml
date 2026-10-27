@@ -1,0 +1,19 @@
+# Render Blueprint: Render reads this when you choose "New > Blueprint" and pick this repo.
+services:
+  - type: web
+    name: travelmate-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DATABASE_URL
+        sync: false        # Render asks you to paste this (your Aiven Service URI)
+      - key: DB_SSL
+        value: "true"
+      - key: FRONTEND_ORIGINS
+        sync: false        # your Vercel URL, e.g. https://travelmate.vercel.app

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Design tokens. Tailwind v4 turns these into classes like bg-ink, text-marigold, font-display. */
+@theme {
+  --color-ink: #1c2b4a;        /* deep monsoon indigo: headings, primary buttons */
+  --color-ink-soft: #2e4170;
+  --color-marigold: #e8a33d;   /* accent: route dots, highlights */
+  --color-marigold-soft: #fbeed6;
+  --color-teal: #217a78;       /* good news: within budget, best months */
+  --color-teal-soft: #dcefee;
+  --color-rust: #b5462f;       /* warnings: over budget, closed days */
+  --color-rust-soft: #f7e3de;
+  --color-paper: #f3f5f8;      /* page background */
+  --color-line: #dde2ea;
+  --color-muted: #5b6577;
+  --color-text: #1a2233;
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base styles live in the "base" layer so Tailwind utility classes (text-white etc.) can override them. */
+@layer base {
+  html { background: var(--color-paper); }
+  body {
+    margin: 0;
+    min-width: 320px;
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.01em; }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+  :focus-visible { outline: 3px solid var(--color-marigold); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: var(--color-marigold-soft); }
+}
+
+/* The itinerary route line */
+.route { position: relative; }
+.route::before {
+  content: ""; position: absolute; left: 5.75rem; top: 0.6rem; bottom: 0.6rem;
+  border-left: 2px dashed var(--color-line);
+}
+@media (max-width: 640px) { .route::before { left: 4.6rem; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media print {
+  header, nav, .no-print { display: none !important; }
+  body { background: white; }
+}

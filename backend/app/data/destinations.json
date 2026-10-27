@@ -1,0 +1,3512 @@
+[
+  {
+    "id": "goa",
+    "name": "Goa",
+    "state": "Goa",
+    "tagline": "Beaches, Portuguese lanes and long sunsets",
+    "lat": 15.4989,
+    "lng": 73.8278,
+    "vibes": {
+      "beaches": 1.0,
+      "nightlife": 1.0,
+      "food": 0.8,
+      "relaxation": 0.8,
+      "heritage": 0.5,
+      "nature": 0.6,
+      "adventure": 0.6,
+      "spiritual": 0.3,
+      "shopping": 0.5
+    },
+    "cost_level": 3,
+    "best_months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [
+      6,
+      7,
+      8
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      3,
+      5
+    ],
+    "getting_there": "Fly into Dabolim (south) or Mopa (north), or take a train to Madgaon / Thivim.",
+    "getting_around": "Rent a scooter (carry your driving licence) or use GoaMiles taxis. Buses are cheap but slow.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1200,
+          2500
+        ],
+        "mid": [
+          3000,
+          6000
+        ],
+        "premium": [
+          8000,
+          18000
+        ]
+      },
+      "food_per_day": {
+        "budget": 600,
+        "mid": 1200,
+        "premium": 2500
+      },
+      "per_km": 20
+    },
+    "hotel_areas": [
+      {
+        "area": "Calangute & Baga",
+        "best_for": "First trip, nightlife, lots of options",
+        "note": "Busy and noisy in peak season."
+      },
+      {
+        "area": "Anjuna & Vagator",
+        "best_for": "Hostels, cafes, sunsets at Chapora",
+        "note": "Good for groups of friends on a budget."
+      },
+      {
+        "area": "Panaji",
+        "best_for": "Central base for Old Goa and Fontainhas",
+        "note": "Quieter at night, easy buses."
+      },
+      {
+        "area": "Palolem & Agonda",
+        "best_for": "Calm beaches in South Goa",
+        "note": "Far from the north Goa sights."
+      }
+    ],
+    "tips": [
+      "Drinking alcohol on beaches and in public places is banned and fined.",
+      "Swim only where lifeguards have flagged safe zones. The sea is rough from June to September.",
+      "Wear a helmet and carry your licence if you rent a scooter. Police checks are common.",
+      "Cover shoulders and knees inside churches.",
+      "Bargain at flea markets. Start at about half the quoted price."
+    ],
+    "dont_miss": [
+      "Sunset from Chapora Fort",
+      "A walk through the coloured houses of Fontainhas",
+      "Goan fish curry rice at a beach shack",
+      "A night market in season (roughly November to April)"
+    ],
+    "local_food": [
+      "Fish curry rice",
+      "Prawn balchão",
+      "Chicken xacuti",
+      "Bebinca",
+      "Ros omelette"
+    ],
+    "attractions": [
+      {
+        "id": "goa-baga",
+        "name": "Baga & Calangute Beach",
+        "area": "North Goa",
+        "lat": 15.5553,
+        "lng": 73.7517,
+        "tags": [
+          "beaches",
+          "nightlife",
+          "adventure"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 2.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Goa's busiest beach strip with water sports by day and shacks by night."
+      },
+      {
+        "id": "goa-aguada",
+        "name": "Fort Aguada",
+        "area": "Candolim",
+        "lat": 15.492,
+        "lng": 73.7737,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 50,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A 17th-century Portuguese fort and lighthouse above the sea."
+      },
+      {
+        "id": "goa-chapora",
+        "name": "Chapora Fort",
+        "area": "Vagator",
+        "lat": 15.6061,
+        "lng": 73.7362,
+        "tags": [
+          "heritage",
+          "relaxation"
+        ],
+        "appeal": 4.5,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "sunset",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Ruined fort on a hill with one of the best sunset views in Goa."
+      },
+      {
+        "id": "goa-anjuna",
+        "name": "Anjuna Flea Market",
+        "area": "Anjuna",
+        "lat": 15.5733,
+        "lng": 73.74,
+        "tags": [
+          "shopping",
+          "food"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Wednesday market for clothes, jewellery and souvenirs, mostly in the tourist season.",
+        "tip": "Runs on Wednesdays in season."
+      },
+      {
+        "id": "goa-oldgoa",
+        "name": "Basilica of Bom Jesus & Old Goa",
+        "area": "Old Goa",
+        "lat": 15.5009,
+        "lng": 73.9116,
+        "tags": [
+          "heritage",
+          "spiritual"
+        ],
+        "appeal": 4.6,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "UNESCO-listed churches from the Portuguese era, including the Basilica of Bom Jesus."
+      },
+      {
+        "id": "goa-fontainhas",
+        "name": "Fontainhas Latin Quarter",
+        "area": "Panaji",
+        "lat": 15.4989,
+        "lng": 73.8318,
+        "tags": [
+          "heritage",
+          "food"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Narrow lanes of colourful Portuguese-style houses, bakeries and small cafes."
+      },
+      {
+        "id": "goa-cruise",
+        "name": "Mandovi River Cruise",
+        "area": "Panaji",
+        "lat": 15.5008,
+        "lng": 73.8294,
+        "tags": [
+          "relaxation",
+          "nightlife"
+        ],
+        "appeal": 3.9,
+        "cost": 500,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "An evening boat ride on the Mandovi with folk music and dance."
+      },
+      {
+        "id": "goa-spice",
+        "name": "Spice Plantation Tour",
+        "area": "Ponda",
+        "lat": 15.4036,
+        "lng": 74.016,
+        "tags": [
+          "food",
+          "nature"
+        ],
+        "appeal": 4.1,
+        "cost": 600,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Guided walk through a spice farm, usually with a Goan buffet lunch."
+      },
+      {
+        "id": "goa-dudhsagar",
+        "name": "Dudhsagar Falls",
+        "area": "Mollem",
+        "lat": 15.3144,
+        "lng": 74.3143,
+        "tags": [
+          "nature",
+          "adventure"
+        ],
+        "appeal": 4.6,
+        "cost": 800,
+        "visit_hours": 5.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A tall four-tier waterfall reached by jeep through the forest.",
+        "tip": "Jeep trips usually stop in peak monsoon. Check before going."
+      },
+      {
+        "id": "goa-palolem",
+        "name": "Palolem Beach",
+        "area": "South Goa",
+        "lat": 15.01,
+        "lng": 74.0232,
+        "tags": [
+          "beaches",
+          "relaxation"
+        ],
+        "appeal": 4.5,
+        "cost": 0,
+        "visit_hours": 3.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A calm crescent-shaped beach in South Goa, good for kayaking."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Goa (Dabolim or Mopa)",
+        "code": "GOI",
+        "km": 25
+      },
+      "rail": {
+        "name": "Madgaon (MAO)",
+        "km": 35
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "tagline": "Nizami heritage, biryani and old-city bazaars",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "vibes": {
+      "heritage": 0.9,
+      "food": 1.0,
+      "shopping": 0.7,
+      "nightlife": 0.5,
+      "spiritual": 0.3,
+      "relaxation": 0.3,
+      "adventure": 0.3
+    },
+    "cost_level": 2,
+    "best_months": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [
+      4,
+      5,
+      6
+    ],
+    "peak_months": [
+      12
+    ],
+    "ideal_days": [
+      2,
+      4
+    ],
+    "getting_there": "Rajiv Gandhi International Airport, or trains to Secunderabad, Nampally and Kacheguda.",
+    "getting_around": "Hyderabad Metro covers the main corridors. Use autos or app cabs for the old city.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1200,
+          2500
+        ],
+        "mid": [
+          3000,
+          6000
+        ],
+        "premium": [
+          7000,
+          15000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1000,
+        "premium": 2200
+      },
+      "per_km": 16
+    },
+    "hotel_areas": [
+      {
+        "area": "Abids & Nampally",
+        "best_for": "Budget stays close to the old city",
+        "note": "Crowded but very central."
+      },
+      {
+        "area": "Banjara & Jubilee Hills",
+        "best_for": "Good restaurants, mid to premium hotels",
+        "note": "Around 30 minutes from Charminar."
+      },
+      {
+        "area": "Secunderabad",
+        "best_for": "Arriving by train",
+        "note": "Good metro access."
+      },
+      {
+        "area": "Hitech City & Gachibowli",
+        "best_for": "Business hotels, newer malls",
+        "note": "Far from the heritage sights."
+      }
+    ],
+    "tips": [
+      "Salar Jung Museum and Chowmahalla Palace are closed on Fridays.",
+      "Visit Charminar early in the morning before the crowds and heat.",
+      "Phones and cameras are not allowed inside Birla Mandir. Leave them in the car or at the counter.",
+      "Dress modestly at Mecca Masjid and temples.",
+      "Haleem is a Ramzan-season speciality. Outside that month you will mostly find biryani."
+    ],
+    "dont_miss": [
+      "A proper Hyderabadi biryani",
+      "Irani chai and Osmania biscuits in the old city",
+      "Light and sound show at Golconda Fort",
+      "Bangle shopping in Laad Bazaar"
+    ],
+    "local_food": [
+      "Hyderabadi dum biryani",
+      "Irani chai with Osmania biscuits",
+      "Haleem (Ramzan season)",
+      "Double ka meetha",
+      "Qubani ka meetha"
+    ],
+    "attractions": [
+      {
+        "id": "hyd-charminar",
+        "name": "Charminar",
+        "area": "Old City",
+        "lat": 17.3616,
+        "lng": 78.4747,
+        "tags": [
+          "heritage",
+          "food"
+        ],
+        "appeal": 4.6,
+        "cost": 25,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "The 16th-century monument at the heart of the old city."
+      },
+      {
+        "id": "hyd-laad",
+        "name": "Laad Bazaar",
+        "area": "Old City",
+        "lat": 17.3613,
+        "lng": 78.4727,
+        "tags": [
+          "shopping"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Old market famous for lac bangles, pearls and wedding shopping."
+      },
+      {
+        "id": "hyd-chowmahalla",
+        "name": "Chowmahalla Palace",
+        "area": "Old City",
+        "lat": 17.3578,
+        "lng": 78.4717,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 80,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [
+          "Fri"
+        ],
+        "description": "The Nizams' palace complex with courtyards, halls and vintage cars."
+      },
+      {
+        "id": "hyd-salarjung",
+        "name": "Salar Jung Museum",
+        "area": "Darulshifa",
+        "lat": 17.3713,
+        "lng": 78.4804,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.4,
+        "cost": 50,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [
+          "Fri"
+        ],
+        "description": "One of India's largest single-collection museums, home to the Veiled Rebecca."
+      },
+      {
+        "id": "hyd-golconda",
+        "name": "Golconda Fort",
+        "area": "Golconda",
+        "lat": 17.3833,
+        "lng": 78.4011,
+        "tags": [
+          "heritage",
+          "adventure"
+        ],
+        "appeal": 4.6,
+        "cost": 25,
+        "visit_hours": 2.5,
+        "best_time": "sunset",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A huge hilltop fort with famous acoustics. Stay for the evening light and sound show."
+      },
+      {
+        "id": "hyd-qutbshahi",
+        "name": "Qutb Shahi Tombs",
+        "area": "Golconda",
+        "lat": 17.395,
+        "lng": 78.396,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.3,
+        "cost": 25,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Restored domed tombs of the Qutb Shahi kings in a quiet garden."
+      },
+      {
+        "id": "hyd-hussainsagar",
+        "name": "Hussain Sagar & Tank Bund",
+        "area": "Central",
+        "lat": 17.4239,
+        "lng": 78.4738,
+        "tags": [
+          "relaxation"
+        ],
+        "appeal": 4.0,
+        "cost": 100,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Lake with the Buddha statue. Take a boat ride or walk along Necklace Road."
+      },
+      {
+        "id": "hyd-birla",
+        "name": "Birla Mandir",
+        "area": "Naubat Pahad",
+        "lat": 17.4062,
+        "lng": 78.4691,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "White marble temple on a hill with city views at dusk.",
+        "tip": "No phones or cameras inside."
+      },
+      {
+        "id": "hyd-ramoji",
+        "name": "Ramoji Film City",
+        "area": "Abdullapurmet",
+        "lat": 17.2543,
+        "lng": 78.6808,
+        "tags": [
+          "adventure"
+        ],
+        "appeal": 4.3,
+        "cost": 1350,
+        "visit_hours": 7.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A massive film studio complex with sets, shows and rides. Needs a full day."
+      },
+      {
+        "id": "hyd-foodwalk",
+        "name": "Old City Food Walk",
+        "area": "Old City",
+        "lat": 17.3625,
+        "lng": 78.476,
+        "tags": [
+          "food"
+        ],
+        "appeal": 4.6,
+        "cost": 400,
+        "visit_hours": 2.0,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Irani cafes, kebabs, biryani and sweets around Charminar and Madina."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Hyderabad",
+        "code": "HYD",
+        "km": 30
+      },
+      "rail": {
+        "name": "Secunderabad (SC)",
+        "km": 8
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "tagline": "Forts, pink bazaars and royal palaces",
+    "lat": 26.9124,
+    "lng": 75.7873,
+    "vibes": {
+      "heritage": 1.0,
+      "shopping": 1.0,
+      "food": 0.7,
+      "spiritual": 0.3,
+      "relaxation": 0.3,
+      "adventure": 0.3
+    },
+    "cost_level": 2,
+    "best_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "avoid_months": [
+      5,
+      6
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Jaipur International Airport, or trains to Jaipur Junction.",
+    "getting_around": "Hire a cab or auto for a full day. The Pink City bazaars are best on foot.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1000,
+          2200
+        ],
+        "mid": [
+          2800,
+          5500
+        ],
+        "premium": [
+          8000,
+          20000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1000,
+        "premium": 2200
+      },
+      "per_km": 15
+    },
+    "hotel_areas": [
+      {
+        "area": "Pink City (old city)",
+        "best_for": "Heritage havelis, walk to bazaars",
+        "note": "Traffic-heavy lanes."
+      },
+      {
+        "area": "MI Road & C-Scheme",
+        "best_for": "Central mid-range hotels and restaurants",
+        "note": "Easy to reach every sight."
+      },
+      {
+        "area": "Bani Park",
+        "best_for": "Budget guesthouses near the station",
+        "note": "Quiet residential area."
+      },
+      {
+        "area": "Amer Road",
+        "best_for": "Premium heritage resorts",
+        "note": "Close to Amber Fort, far from shops."
+      }
+    ],
+    "tips": [
+      "A composite ticket covers several monuments, including Amber Fort, Hawa Mahal and Jantar Mantar. It works out cheaper if you visit three or more.",
+      "Reach Amber Fort when it opens to beat the heat and the crowds.",
+      "Ignore touts offering gem deals. Gem resale scams are common.",
+      "Bargain in Johari and Bapu Bazaar. Start well below the first price.",
+      "Carry a cap and water. Afternoons are hot even in winter."
+    ],
+    "dont_miss": [
+      "Hawa Mahal from a rooftop cafe opposite",
+      "Sunset over the city from Nahargarh Fort",
+      "Lassi on MI Road",
+      "Block-print and mojari shopping in the bazaars"
+    ],
+    "local_food": [
+      "Dal baati churma",
+      "Pyaaz kachori",
+      "Ghewar",
+      "Laal maas",
+      "Kulfi"
+    ],
+    "attractions": [
+      {
+        "id": "jai-amber",
+        "name": "Amber Fort",
+        "area": "Amer",
+        "lat": 26.9855,
+        "lng": 75.8513,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.8,
+        "cost": 100,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A hilltop fort-palace with mirror halls and wide courtyards."
+      },
+      {
+        "id": "jai-hawa",
+        "name": "Hawa Mahal",
+        "area": "Pink City",
+        "lat": 26.9239,
+        "lng": 75.8267,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 50,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "The Palace of Winds with 953 small windows. Best in morning light."
+      },
+      {
+        "id": "jai-citypalace",
+        "name": "City Palace",
+        "area": "Pink City",
+        "lat": 26.9258,
+        "lng": 75.8237,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 300,
+        "visit_hours": 2.0,
+        "best_time": "any",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Royal residence with museums, courtyards and the famous peacock gate."
+      },
+      {
+        "id": "jai-jantar",
+        "name": "Jantar Mantar",
+        "area": "Pink City",
+        "lat": 26.9248,
+        "lng": 75.8246,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.3,
+        "cost": 50,
+        "visit_hours": 1.0,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "UNESCO-listed 18th-century observatory with giant stone instruments."
+      },
+      {
+        "id": "jai-nahargarh",
+        "name": "Nahargarh Fort",
+        "area": "Aravalli Hills",
+        "lat": 26.9373,
+        "lng": 75.8155,
+        "tags": [
+          "heritage",
+          "relaxation"
+        ],
+        "appeal": 4.5,
+        "cost": 50,
+        "visit_hours": 2.0,
+        "best_time": "sunset",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Fort on the ridge above the city, the classic Jaipur sunset spot."
+      },
+      {
+        "id": "jai-jalmahal",
+        "name": "Jal Mahal",
+        "area": "Amer Road",
+        "lat": 26.9535,
+        "lng": 75.8462,
+        "tags": [
+          "heritage",
+          "relaxation"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A palace in the middle of Man Sagar lake. Viewed from the promenade."
+      },
+      {
+        "id": "jai-bazaar",
+        "name": "Johari & Bapu Bazaar",
+        "area": "Pink City",
+        "lat": 26.922,
+        "lng": 75.826,
+        "tags": [
+          "shopping",
+          "food"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Jewellery, textiles, mojaris and street snacks in the old city."
+      },
+      {
+        "id": "jai-albert",
+        "name": "Albert Hall Museum",
+        "area": "Ram Niwas Garden",
+        "lat": 26.9116,
+        "lng": 75.8195,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 40,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Indo-Saracenic museum building, beautifully lit after dark."
+      },
+      {
+        "id": "jai-patrika",
+        "name": "Patrika Gate",
+        "area": "Jawahar Circle",
+        "lat": 26.8418,
+        "lng": 75.803,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.1,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A brightly painted gateway that is popular for photos."
+      },
+      {
+        "id": "jai-chokhidhani",
+        "name": "Chokhi Dhani",
+        "area": "Tonk Road",
+        "lat": 26.7681,
+        "lng": 75.8355,
+        "tags": [
+          "food"
+        ],
+        "appeal": 4.1,
+        "cost": 1100,
+        "visit_hours": 3.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A Rajasthani village-style resort with folk shows and a big thali dinner."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Jaipur",
+        "code": "JAI",
+        "km": 12
+      },
+      "rail": {
+        "name": "Jaipur (JP)",
+        "km": 3
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "tagline": "Snow, pine forests and mountain cafes",
+    "lat": 32.2432,
+    "lng": 77.1892,
+    "vibes": {
+      "cold": 1.0,
+      "mountains": 1.0,
+      "adventure": 1.0,
+      "nature": 0.9,
+      "relaxation": 0.6,
+      "spiritual": 0.4,
+      "nightlife": 0.3,
+      "shopping": 0.3,
+      "food": 0.4
+    },
+    "cost_level": 2,
+    "best_months": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      12,
+      1
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
+    "peak_months": [
+      5,
+      6,
+      12
+    ],
+    "ideal_days": [
+      3,
+      5
+    ],
+    "getting_there": "Overnight Volvo bus from Delhi or Chandigarh, or fly to Bhuntar (about 50 km away).",
+    "getting_around": "Local taxi union cabs run on fixed rates. Walk around Old Manali and Mall Road.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1000,
+          2200
+        ],
+        "mid": [
+          2500,
+          5000
+        ],
+        "premium": [
+          7000,
+          15000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1000,
+        "premium": 2000
+      },
+      "per_km": 25
+    },
+    "hotel_areas": [
+      {
+        "area": "Old Manali",
+        "best_for": "Hostels, cafes, backpackers",
+        "note": "Short uphill walk from the main town."
+      },
+      {
+        "area": "Mall Road",
+        "best_for": "Convenient, near buses and shops",
+        "note": "Busy and touristy."
+      },
+      {
+        "area": "Vashisht",
+        "best_for": "Quiet stays with valley views",
+        "note": "Near the hot springs."
+      },
+      {
+        "area": "Prini & Aleo",
+        "best_for": "Premium resorts and cottages",
+        "note": "Need a cab to get around."
+      }
+    ],
+    "tips": [
+      "Rohtang Pass needs an online permit booked in advance and is closed on Tuesdays. It usually opens only from about May to November.",
+      "Roads beyond Solang can close after heavy snow. Check road status the night before.",
+      "Carry warm layers even in summer. Evenings get cold fast.",
+      "Carry some cash. ATMs and network get patchy as you go higher.",
+      "Don't litter. Fines apply in many areas."
+    ],
+    "dont_miss": [
+      "Snow at Solang Valley or beyond the Atal Tunnel (season-dependent)",
+      "Hadimba Temple in the cedar forest",
+      "A slow evening at an Old Manali cafe",
+      "Siddu and local trout"
+    ],
+    "local_food": [
+      "Siddu",
+      "Himachali dham",
+      "Trout fish",
+      "Thukpa",
+      "Momos"
+    ],
+    "attractions": [
+      {
+        "id": "man-hadimba",
+        "name": "Hadimba Temple",
+        "area": "Dhungri",
+        "lat": 32.2486,
+        "lng": 77.1806,
+        "tags": [
+          "spiritual",
+          "heritage",
+          "nature"
+        ],
+        "appeal": 4.6,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A 16th-century wooden pagoda-style temple inside a deodar forest."
+      },
+      {
+        "id": "man-oldmanali",
+        "name": "Old Manali & Manu Temple",
+        "area": "Old Manali",
+        "lat": 32.2556,
+        "lng": 77.1773,
+        "tags": [
+          "relaxation",
+          "food",
+          "spiritual"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Village lanes with cafes, guesthouses and the old Manu Temple."
+      },
+      {
+        "id": "man-mall",
+        "name": "Mall Road",
+        "area": "Manali town",
+        "lat": 32.2432,
+        "lng": 77.1892,
+        "tags": [
+          "shopping",
+          "food"
+        ],
+        "appeal": 3.9,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "The main market street for woollens, shawls and street food."
+      },
+      {
+        "id": "man-monastery",
+        "name": "Tibetan Monastery",
+        "area": "Manali town",
+        "lat": 32.242,
+        "lng": 77.188,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Colourful Gadhan Thekchhokling Gompa near the bus stand."
+      },
+      {
+        "id": "man-vashisht",
+        "name": "Vashisht Hot Springs",
+        "area": "Vashisht",
+        "lat": 32.265,
+        "lng": 77.188,
+        "tags": [
+          "relaxation",
+          "spiritual"
+        ],
+        "appeal": 4.1,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Natural sulphur springs next to an old stone temple."
+      },
+      {
+        "id": "man-jogini",
+        "name": "Jogini Waterfall Trek",
+        "area": "Vashisht",
+        "lat": 32.273,
+        "lng": 77.195,
+        "tags": [
+          "nature",
+          "adventure"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "An easy-to-moderate walk through orchards to a tall waterfall."
+      },
+      {
+        "id": "man-solang",
+        "name": "Solang Valley",
+        "area": "Solang",
+        "lat": 32.3167,
+        "lng": 77.158,
+        "tags": [
+          "adventure",
+          "cold",
+          "mountains"
+        ],
+        "appeal": 4.6,
+        "cost": 1500,
+        "visit_hours": 4.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Snow in winter, paragliding and ropeway rides the rest of the year.",
+        "tip": "Activity prices vary a lot. Fix the price before you start."
+      },
+      {
+        "id": "man-atal",
+        "name": "Atal Tunnel & Sissu",
+        "area": "Lahaul",
+        "lat": 32.48,
+        "lng": 77.12,
+        "tags": [
+          "cold",
+          "mountains",
+          "nature"
+        ],
+        "appeal": 4.7,
+        "cost": 0,
+        "visit_hours": 6.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Drive through the 9 km tunnel to snowy Lahaul valley and Sissu waterfall.",
+        "tip": "Road closes after heavy snowfall."
+      },
+      {
+        "id": "man-rohtang",
+        "name": "Rohtang Pass",
+        "area": "Rohtang",
+        "lat": 32.3716,
+        "lng": 77.2466,
+        "tags": [
+          "cold",
+          "mountains",
+          "adventure"
+        ],
+        "appeal": 4.5,
+        "cost": 600,
+        "visit_hours": 6.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [
+          "Tue"
+        ],
+        "description": "A high mountain pass at about 3,980 m with snow for much of the year.",
+        "tip": "Permit required. Closed on Tuesdays."
+      },
+      {
+        "id": "man-naggar",
+        "name": "Naggar Castle",
+        "area": "Naggar",
+        "lat": 32.115,
+        "lng": 77.17,
+        "tags": [
+          "heritage",
+          "nature"
+        ],
+        "appeal": 4.2,
+        "cost": 30,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A stone-and-wood castle with valley views and the Roerich art gallery nearby."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Kullu–Bhuntar",
+        "code": "KUU",
+        "km": 50,
+        "note": "Very few flights. Many people fly to Chandigarh (IXC) and take a bus."
+      },
+      "rail": null,
+      "rail_note": "Manali has no railway. Take a train to Chandigarh (CDG), then a bus or cab for about 8–10 hours.",
+      "bus": true,
+      "bus_note": "Overnight Volvo buses run from Delhi and Chandigarh."
+    }
+  },
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "tagline": "Gardens, filter coffee and a big food scene",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "vibes": {
+      "food": 0.8,
+      "nightlife": 0.9,
+      "nature": 0.4,
+      "heritage": 0.4,
+      "shopping": 0.6,
+      "spiritual": 0.3,
+      "relaxation": 0.4
+    },
+    "cost_level": 3,
+    "best_months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [],
+    "peak_months": [],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Kempegowda International Airport (about an hour from the city), or trains to KSR Bengaluru.",
+    "getting_around": "Namma Metro is the fastest way across the city. Use autos and app cabs for short hops.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1500,
+          2800
+        ],
+        "mid": [
+          3500,
+          6500
+        ],
+        "premium": [
+          8000,
+          16000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1100,
+        "premium": 2500
+      },
+      "per_km": 18
+    },
+    "hotel_areas": [
+      {
+        "area": "MG Road & Indiranagar",
+        "best_for": "Nightlife, pubs, central location",
+        "note": "Metro on the doorstep."
+      },
+      {
+        "area": "Malleshwaram & Basavanagudi",
+        "best_for": "Old Bangalore, classic dosa spots",
+        "note": "Good budget options."
+      },
+      {
+        "area": "Koramangala",
+        "best_for": "Cafes and young crowd",
+        "note": "Traffic gets heavy in the evening."
+      },
+      {
+        "area": "Whitefield",
+        "best_for": "Work trips only",
+        "note": "Far from the main sights."
+      }
+    ],
+    "tips": [
+      "Plan by area. Avoid crossing the city between 8–11 am and 5–8 pm because of traffic.",
+      "Use the metro wherever it reaches. It saves a lot of time.",
+      "For Nandi Hills sunrise, leave by about 4:30 am. Weekends get very crowded.",
+      "Evenings in December and January can be cool. Carry a light jacket.",
+      "Many pubs close around 1 am. Check before planning a late night."
+    ],
+    "dont_miss": [
+      "Masala dosa and filter coffee at an old darshini",
+      "A morning walk in Cubbon Park",
+      "VV Puram food street in the evening",
+      "Sunrise above the clouds at Nandi Hills"
+    ],
+    "local_food": [
+      "Masala dosa",
+      "Filter coffee",
+      "Bisi bele bath",
+      "Donne biryani",
+      "Mysore pak"
+    ],
+    "attractions": [
+      {
+        "id": "blr-lalbagh",
+        "name": "Lalbagh Botanical Garden",
+        "area": "Lalbagh",
+        "lat": 12.9507,
+        "lng": 77.5848,
+        "tags": [
+          "nature",
+          "relaxation"
+        ],
+        "appeal": 4.5,
+        "cost": 30,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A 240-acre garden with a glass house and old trees."
+      },
+      {
+        "id": "blr-cubbon",
+        "name": "Cubbon Park",
+        "area": "Central",
+        "lat": 12.9763,
+        "lng": 77.5929,
+        "tags": [
+          "nature",
+          "relaxation"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Green lung of the city next to the State Central Library."
+      },
+      {
+        "id": "blr-vidhana",
+        "name": "Vidhana Soudha",
+        "area": "Central",
+        "lat": 12.9796,
+        "lng": 77.5906,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Karnataka's granite legislature building, viewed from outside."
+      },
+      {
+        "id": "blr-palace",
+        "name": "Bangalore Palace",
+        "area": "Vasanth Nagar",
+        "lat": 12.9987,
+        "lng": 77.5921,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 250,
+        "visit_hours": 1.5,
+        "best_time": "any",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Tudor-style palace with royal interiors."
+      },
+      {
+        "id": "blr-tipu",
+        "name": "Tipu Sultan's Summer Palace",
+        "area": "KR Market",
+        "lat": 12.9593,
+        "lng": 77.5737,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.0,
+        "cost": 25,
+        "visit_hours": 1.0,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A two-storey teak palace from the 18th century."
+      },
+      {
+        "id": "blr-iskcon",
+        "name": "ISKCON Temple",
+        "area": "Rajajinagar",
+        "lat": 13.0098,
+        "lng": 77.5511,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A large hilltop temple complex, lively during evening aarti."
+      },
+      {
+        "id": "blr-vvpuram",
+        "name": "VV Puram Food Street",
+        "area": "Basavanagudi",
+        "lat": 12.9497,
+        "lng": 77.573,
+        "tags": [
+          "food"
+        ],
+        "appeal": 4.5,
+        "cost": 300,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A street of stalls for dosas, holige, gulkand and more."
+      },
+      {
+        "id": "blr-churchst",
+        "name": "Church Street & MG Road",
+        "area": "MG Road",
+        "lat": 12.9752,
+        "lng": 77.605,
+        "tags": [
+          "nightlife",
+          "food",
+          "shopping"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 2.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Bookshops, cafes, pubs and street music in the city centre."
+      },
+      {
+        "id": "blr-commercial",
+        "name": "Commercial Street",
+        "area": "Shivajinagar",
+        "lat": 12.9822,
+        "lng": 77.6083,
+        "tags": [
+          "shopping"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Busy street for budget clothes, accessories and bargains."
+      },
+      {
+        "id": "blr-nandi",
+        "name": "Nandi Hills",
+        "area": "Chikkaballapur",
+        "lat": 13.3702,
+        "lng": 77.6835,
+        "tags": [
+          "nature",
+          "mountains"
+        ],
+        "appeal": 4.5,
+        "cost": 30,
+        "visit_hours": 3.0,
+        "best_time": "sunrise",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A hill fort about 60 km away, famous for sunrise above the clouds."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Bengaluru",
+        "code": "BLR",
+        "km": 35
+      },
+      "rail": {
+        "name": "KSR Bengaluru (SBC)",
+        "km": 3
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "pondicherry",
+    "name": "Pondicherry",
+    "state": "Puducherry",
+    "tagline": "French lanes, calm seafronts and Auroville",
+    "lat": 11.9339,
+    "lng": 79.8297,
+    "vibes": {
+      "beaches": 0.9,
+      "relaxation": 0.9,
+      "heritage": 0.6,
+      "spiritual": 0.6,
+      "food": 0.7,
+      "adventure": 0.3,
+      "nature": 0.3
+    },
+    "cost_level": 2,
+    "best_months": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "avoid_months": [
+      4,
+      5,
+      6,
+      11
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "About 3 hours by road from Chennai. The nearest major airport is Chennai.",
+    "getting_around": "Rent a scooter or a bicycle. White Town is best on foot.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1200,
+          2500
+        ],
+        "mid": [
+          3000,
+          6000
+        ],
+        "premium": [
+          7000,
+          14000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1100,
+        "premium": 2300
+      },
+      "per_km": 18
+    },
+    "hotel_areas": [
+      {
+        "area": "White Town (French Quarter)",
+        "best_for": "Heritage guesthouses, walk everywhere",
+        "note": "Pricier, books out on weekends."
+      },
+      {
+        "area": "Tamil Quarter",
+        "best_for": "Cheaper stays near White Town",
+        "note": "Ten-minute walk to the promenade."
+      },
+      {
+        "area": "ECR & Auroville",
+        "best_for": "Beach stays and quiet cottages",
+        "note": "You'll need a scooter."
+      }
+    ],
+    "tips": [
+      "The Aurobindo Ashram asks for silence. Photos are not allowed inside.",
+      "To go inside the Matrimandir, book in advance at the Auroville visitor centre. Otherwise you can see it from the viewpoint.",
+      "The sea at Promenade (Rock) Beach is rough. Don't swim there.",
+      "Promenade Beach road is closed to vehicles in the evening, which makes it nice for a walk.",
+      "Rules for carrying alcohol into Tamil Nadu are strict. Check before you carry any across."
+    ],
+    "dont_miss": [
+      "Sunrise walk on the Promenade",
+      "Cycling through White Town's yellow lanes",
+      "Paradise Beach by boat",
+      "A French bakery breakfast"
+    ],
+    "local_food": [
+      "Croissants and French pastries",
+      "Creole fish curry",
+      "Filter coffee",
+      "Seafood",
+      "Tamil meals"
+    ],
+    "attractions": [
+      {
+        "id": "pdy-promenade",
+        "name": "Promenade (Rock) Beach",
+        "area": "White Town",
+        "lat": 11.931,
+        "lng": 79.8357,
+        "tags": [
+          "beaches",
+          "relaxation"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "sunrise",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A 1.5 km seafront walk with the Gandhi statue and old lighthouse."
+      },
+      {
+        "id": "pdy-whitetown",
+        "name": "White Town Heritage Walk",
+        "area": "White Town",
+        "lat": 11.9336,
+        "lng": 79.8335,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.6,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Yellow French villas, bougainvillea and cafes in the old French quarter."
+      },
+      {
+        "id": "pdy-ashram",
+        "name": "Sri Aurobindo Ashram",
+        "area": "White Town",
+        "lat": 11.9369,
+        "lng": 79.8345,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A quiet ashram with the flower-covered samadhi.",
+        "tip": "Silence and no photos inside."
+      },
+      {
+        "id": "pdy-basilica",
+        "name": "Basilica of the Sacred Heart",
+        "area": "South Boulevard",
+        "lat": 11.925,
+        "lng": 79.827,
+        "tags": [
+          "heritage",
+          "spiritual"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Gothic church with stained-glass panels."
+      },
+      {
+        "id": "pdy-goubert",
+        "name": "Goubert Market",
+        "area": "Tamil Quarter",
+        "lat": 11.9356,
+        "lng": 79.8302,
+        "tags": [
+          "shopping",
+          "food"
+        ],
+        "appeal": 3.8,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Local market for flowers, fruit, fish and spices."
+      },
+      {
+        "id": "pdy-auroville",
+        "name": "Auroville & Matrimandir",
+        "area": "Auroville",
+        "lat": 12.007,
+        "lng": 79.8106,
+        "tags": [
+          "spiritual",
+          "relaxation"
+        ],
+        "appeal": 4.5,
+        "cost": 0,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "An experimental township with the golden Matrimandir at its centre."
+      },
+      {
+        "id": "pdy-paradise",
+        "name": "Paradise Beach",
+        "area": "Chunnambar",
+        "lat": 11.8862,
+        "lng": 79.829,
+        "tags": [
+          "beaches",
+          "adventure"
+        ],
+        "appeal": 4.4,
+        "cost": 400,
+        "visit_hours": 3.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A clean sandy beach reached by a short backwater boat ride."
+      },
+      {
+        "id": "pdy-serenity",
+        "name": "Serenity Beach",
+        "area": "Kottakuppam",
+        "lat": 11.965,
+        "lng": 79.844,
+        "tags": [
+          "beaches",
+          "adventure"
+        ],
+        "appeal": 4.1,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A quieter beach known for beginner surfing lessons."
+      },
+      {
+        "id": "pdy-ousteri",
+        "name": "Ousteri Lake",
+        "area": "Ousteri",
+        "lat": 11.959,
+        "lng": 79.747,
+        "tags": [
+          "nature"
+        ],
+        "appeal": 3.9,
+        "cost": 50,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A wetland lake with migratory birds in winter and boating."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Chennai",
+        "code": "MAA",
+        "km": 150,
+        "note": "Puducherry's own airport has very few flights. Most people fly to Chennai."
+      },
+      "rail": {
+        "name": "Puducherry (PDY)",
+        "km": 2,
+        "note": "Few direct trains. Villupuram (VM), 40 km away, has many more."
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "tagline": "Ganga aarti, yoga and white-water rafting",
+    "lat": 30.0869,
+    "lng": 78.2676,
+    "vibes": {
+      "spiritual": 1.0,
+      "adventure": 1.0,
+      "nature": 0.7,
+      "mountains": 0.6,
+      "relaxation": 0.7,
+      "food": 0.4,
+      "cold": 0.3
+    },
+    "cost_level": 1,
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
+    "peak_months": [
+      3,
+      5,
+      10
+    ],
+    "ideal_days": [
+      2,
+      4
+    ],
+    "getting_there": "Jolly Grant airport in Dehradun is about 35 km away. Trains and buses run to Haridwar and Rishikesh.",
+    "getting_around": "Walk across the bridges. Shared autos run between town, Ram Jhula and Tapovan.",
+    "costs": {
+      "stay": {
+        "budget": [
+          800,
+          2000
+        ],
+        "mid": [
+          2500,
+          5000
+        ],
+        "premium": [
+          7000,
+          18000
+        ]
+      },
+      "food_per_day": {
+        "budget": 400,
+        "mid": 800,
+        "premium": 1800
+      },
+      "per_km": 18
+    },
+    "hotel_areas": [
+      {
+        "area": "Tapovan",
+        "best_for": "Cafes, yoga schools, backpackers",
+        "note": "Hilly lanes, lots of hostels."
+      },
+      {
+        "area": "Swarg Ashram side",
+        "best_for": "Quiet ashram stays near Parmarth Niketan",
+        "note": "Mostly no vehicles."
+      },
+      {
+        "area": "Shivpuri camps",
+        "best_for": "Riverside tents for rafting trips",
+        "note": "About 16 km upstream."
+      },
+      {
+        "area": "Rishikesh town",
+        "best_for": "Budget hotels near the bus stand",
+        "note": "Close to Triveni Ghat."
+      }
+    ],
+    "tips": [
+      "Meat and alcohol are not served in Rishikesh's main areas. It's a vegetarian holy town.",
+      "Raft only with licensed operators and keep your life jacket on throughout.",
+      "Rafting usually pauses in July and August for the monsoon.",
+      "Don't swim at the ghats. The Ganga's current is stronger than it looks.",
+      "Dress modestly at ghats and temples. Watch out for monkeys grabbing bags."
+    ],
+    "dont_miss": [
+      "Evening Ganga aarti at Parmarth Niketan",
+      "Rafting from Shivpuri in season",
+      "A yoga class in Tapovan",
+      "Sunrise at Kunjapuri temple"
+    ],
+    "local_food": [
+      "Aloo puri",
+      "Garhwali thali",
+      "Lassi",
+      "Ayurvedic and cafe food",
+      "Kachori"
+    ],
+    "attractions": [
+      {
+        "id": "rsk-ramjhula",
+        "name": "Ram Jhula & Swarg Ashram",
+        "area": "Swarg Ashram",
+        "lat": 30.1228,
+        "lng": 78.315,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Suspension bridge over the Ganga leading to old ashrams and ghats.",
+        "tip": "Laxman Jhula was closed for safety in 2022. Check whether it or the new bridge is open."
+      },
+      {
+        "id": "rsk-parmarth",
+        "name": "Parmarth Niketan Ganga Aarti",
+        "area": "Swarg Ashram",
+        "lat": 30.1218,
+        "lng": 78.315,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.8,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Evening aarti with chanting and lamps on the river steps."
+      },
+      {
+        "id": "rsk-triveni",
+        "name": "Triveni Ghat",
+        "area": "Rishikesh town",
+        "lat": 30.1036,
+        "lng": 78.2977,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "The town's main bathing ghat with its own evening aarti."
+      },
+      {
+        "id": "rsk-rafting",
+        "name": "River Rafting from Shivpuri",
+        "area": "Shivpuri",
+        "lat": 30.144,
+        "lng": 78.388,
+        "tags": [
+          "adventure"
+        ],
+        "appeal": 4.8,
+        "cost": 1000,
+        "visit_hours": 3.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Around 16 km of rapids from Shivpuri back to Rishikesh.",
+        "tip": "Usually closed in July–August."
+      },
+      {
+        "id": "rsk-beatles",
+        "name": "Beatles Ashram (Chaurasi Kutia)",
+        "area": "Swarg Ashram",
+        "lat": 30.1167,
+        "lng": 78.3195,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 150,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Abandoned ashram where the Beatles stayed in 1968, now covered in murals."
+      },
+      {
+        "id": "rsk-neergarh",
+        "name": "Neer Garh Waterfall",
+        "area": "Tapovan",
+        "lat": 30.136,
+        "lng": 78.343,
+        "tags": [
+          "nature",
+          "adventure"
+        ],
+        "appeal": 4.1,
+        "cost": 30,
+        "visit_hours": 2.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A short forest walk to a set of cascading pools."
+      },
+      {
+        "id": "rsk-tapovan",
+        "name": "Tapovan Cafes & Yoga",
+        "area": "Tapovan",
+        "lat": 30.129,
+        "lng": 78.325,
+        "tags": [
+          "relaxation",
+          "food"
+        ],
+        "appeal": 4.3,
+        "cost": 500,
+        "visit_hours": 2.0,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Drop-in yoga classes and riverside cafes with Ganga views."
+      },
+      {
+        "id": "rsk-neelkanth",
+        "name": "Neelkanth Mahadev Temple",
+        "area": "Neelkanth",
+        "lat": 30.082,
+        "lng": 78.342,
+        "tags": [
+          "spiritual",
+          "mountains"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 3.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Shiva temple in the forested hills, a winding drive of about 30 km."
+      },
+      {
+        "id": "rsk-kunjapuri",
+        "name": "Kunjapuri Temple Sunrise",
+        "area": "Narendra Nagar",
+        "lat": 30.194,
+        "lng": 78.324,
+        "tags": [
+          "spiritual",
+          "mountains",
+          "nature"
+        ],
+        "appeal": 4.5,
+        "cost": 0,
+        "visit_hours": 2.5,
+        "best_time": "sunrise",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Hilltop temple with sunrise views over the Himalayan peaks."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Dehradun (Jolly Grant)",
+        "code": "DED",
+        "km": 35
+      },
+      "rail": {
+        "name": "Haridwar (HW)",
+        "km": 25,
+        "note": "Rishikesh (YNRK) also has some direct trains."
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "tagline": "The ghats, the aarti and the old city lanes",
+    "lat": 25.3176,
+    "lng": 82.9739,
+    "vibes": {
+      "spiritual": 1.0,
+      "heritage": 0.7,
+      "food": 0.8,
+      "shopping": 0.6,
+      "relaxation": 0.3
+    },
+    "cost_level": 1,
+    "best_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "avoid_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peak_months": [
+      11,
+      12
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Lal Bahadur Shastri Airport, or trains to Varanasi Junction and Banaras station.",
+    "getting_around": "Walk along the ghats and lanes, or take boats. E-rickshaws work for longer hops.",
+    "costs": {
+      "stay": {
+        "budget": [
+          900,
+          2000
+        ],
+        "mid": [
+          2500,
+          5500
+        ],
+        "premium": [
+          7000,
+          18000
+        ]
+      },
+      "food_per_day": {
+        "budget": 400,
+        "mid": 800,
+        "premium": 1800
+      },
+      "per_km": 14
+    },
+    "hotel_areas": [
+      {
+        "area": "Assi Ghat",
+        "best_for": "Cafes, calmer ghats, morning aarti",
+        "note": "A 30-minute walk to Dashashwamedh."
+      },
+      {
+        "area": "Dashashwamedh & Godowlia",
+        "best_for": "Close to the main aarti and temple",
+        "note": "Very crowded lanes."
+      },
+      {
+        "area": "Riverside havelis",
+        "best_for": "Ghat-view rooms",
+        "note": "Usually reached on foot only."
+      },
+      {
+        "area": "Cantonment",
+        "best_for": "Premium hotels, quieter roads",
+        "note": "Far from the ghats."
+      }
+    ],
+    "tips": [
+      "Agree on the boat price before you get in.",
+      "Phones and bags are not allowed inside Kashi Vishwanath Temple. Use the lockers nearby.",
+      "Don't photograph cremations at Manikarnika Ghat. Ignore anyone asking for wood donations.",
+      "Don't drink or bathe in the river water.",
+      "In the monsoon the ghats flood and boat rides may be stopped."
+    ],
+    "dont_miss": [
+      "Ganga aarti at Dashashwamedh Ghat",
+      "Sunrise boat ride along the ghats",
+      "Kachori sabzi breakfast and a Banarasi paan",
+      "Malaiyyo (only in winter)"
+    ],
+    "local_food": [
+      "Kachori sabzi",
+      "Tamatar chaat",
+      "Malaiyyo (winter)",
+      "Lassi",
+      "Banarasi paan"
+    ],
+    "attractions": [
+      {
+        "id": "vns-aarti",
+        "name": "Dashashwamedh Ganga Aarti",
+        "area": "Dashashwamedh",
+        "lat": 25.307,
+        "lng": 83.0105,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.9,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "The grand evening aarti with priests, lamps and bells by the river.",
+        "tip": "Reach 45 minutes early for a good spot, or watch from a boat."
+      },
+      {
+        "id": "vns-boat",
+        "name": "Sunrise Boat Ride",
+        "area": "Assi to Dashashwamedh",
+        "lat": 25.295,
+        "lng": 83.006,
+        "tags": [
+          "spiritual",
+          "relaxation"
+        ],
+        "appeal": 4.8,
+        "cost": 400,
+        "visit_hours": 1.5,
+        "best_time": "sunrise",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Drift past the ghats as the city wakes up."
+      },
+      {
+        "id": "vns-assi",
+        "name": "Assi Ghat Morning Aarti",
+        "area": "Assi Ghat",
+        "lat": 25.2867,
+        "lng": 83.0067,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "sunrise",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Subah-e-Banaras: morning aarti, music and yoga at the southern ghat."
+      },
+      {
+        "id": "vns-kashi",
+        "name": "Kashi Vishwanath Temple",
+        "area": "Vishwanath Gali",
+        "lat": 25.3109,
+        "lng": 83.0107,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.7,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "One of the most important Shiva temples, with the new corridor to the river.",
+        "tip": "No phones or bags inside."
+      },
+      {
+        "id": "vns-manikarnika",
+        "name": "Manikarnika Ghat",
+        "area": "Old City",
+        "lat": 25.3109,
+        "lng": 83.014,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "The main cremation ghat. Observe quietly and respectfully.",
+        "tip": "No photos of cremations."
+      },
+      {
+        "id": "vns-lanes",
+        "name": "Old City Food Walk",
+        "area": "Godowlia",
+        "lat": 25.31,
+        "lng": 83.008,
+        "tags": [
+          "food",
+          "shopping"
+        ],
+        "appeal": 4.6,
+        "cost": 300,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Kachoris, chaat, lassi and sweets through the narrow galis."
+      },
+      {
+        "id": "vns-sarnath",
+        "name": "Sarnath",
+        "area": "Sarnath",
+        "lat": 25.381,
+        "lng": 83.024,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 25,
+        "visit_hours": 3.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Where the Buddha gave his first sermon: Dhamek Stupa, ruins and museum.",
+        "tip": "The site museum is closed on Fridays."
+      },
+      {
+        "id": "vns-ramnagar",
+        "name": "Ramnagar Fort",
+        "area": "Ramnagar",
+        "lat": 25.269,
+        "lng": 83.024,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 3.9,
+        "cost": 75,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "18th-century fort of the Maharaja of Benares across the river."
+      },
+      {
+        "id": "vns-bhu",
+        "name": "BHU & New Vishwanath Temple",
+        "area": "Lanka",
+        "lat": 25.2677,
+        "lng": 82.9913,
+        "tags": [
+          "heritage",
+          "spiritual"
+        ],
+        "appeal": 4.1,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Leafy university campus with a tall marble temple and an art museum."
+      },
+      {
+        "id": "vns-silk",
+        "name": "Banarasi Silk Weaving Visit",
+        "area": "Peeli Kothi",
+        "lat": 25.325,
+        "lng": 83.014,
+        "tags": [
+          "shopping",
+          "heritage"
+        ],
+        "appeal": 3.9,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "See handloom weavers at work and shop for Banarasi saris.",
+        "tip": "Go with your own budget in mind. Guides often earn commission here."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Varanasi",
+        "code": "VNS",
+        "km": 25
+      },
+      "rail": {
+        "name": "Varanasi (BSB)",
+        "km": 4
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "tagline": "Kanchenjunga views, tea gardens and the toy train",
+    "lat": 27.041,
+    "lng": 88.2663,
+    "vibes": {
+      "cold": 1.0,
+      "mountains": 1.0,
+      "nature": 0.8,
+      "heritage": 0.5,
+      "relaxation": 0.6,
+      "spiritual": 0.4,
+      "food": 0.5,
+      "adventure": 0.4,
+      "shopping": 0.3
+    },
+    "cost_level": 2,
+    "best_months": [
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
+    "peak_months": [
+      5,
+      10
+    ],
+    "ideal_days": [
+      2,
+      4
+    ],
+    "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri (NJP), then about 3 hours by shared jeep or cab.",
+    "getting_around": "Shared jeeps are cheap. The Mall and Chowrasta are pedestrian-only.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1000,
+          2200
+        ],
+        "mid": [
+          2500,
+          5500
+        ],
+        "premium": [
+          7000,
+          15000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 900,
+        "premium": 2000
+      },
+      "per_km": 25
+    },
+    "hotel_areas": [
+      {
+        "area": "Mall Road & Chowrasta",
+        "best_for": "Walkable, mountain views",
+        "note": "Steep climbs from the taxi stand."
+      },
+      {
+        "area": "Gandhi Road & Laden La Road",
+        "best_for": "Budget hotels near transport",
+        "note": "Busier and noisier."
+      },
+      {
+        "area": "Ghoom",
+        "best_for": "Quieter base near Tiger Hill",
+        "note": "About 8 km from town."
+      },
+      {
+        "area": "Tea estate bungalows",
+        "best_for": "Premium colonial-style stays",
+        "note": "Book well ahead."
+      }
+    ],
+    "tips": [
+      "For Tiger Hill sunrise, book the jeep the night before and leave around 4 am.",
+      "Kanchenjunga is clearest from October to December. Clouds can hide it on other days.",
+      "The Himalayan Mountaineering Institute and the zoo are closed on Thursdays.",
+      "Book toy train joy rides in advance. They sell out in season.",
+      "Landslides can block roads in the monsoon. Keep a buffer day."
+    ],
+    "dont_miss": [
+      "Sunrise on Kanchenjunga from Tiger Hill",
+      "A toy train ride around Batasia Loop",
+      "First-flush tea at a tea estate",
+      "Momos and thukpa on a cold evening"
+    ],
+    "local_food": [
+      "Momos",
+      "Thukpa",
+      "Darjeeling tea",
+      "Sel roti",
+      "Churpi"
+    ],
+    "attractions": [
+      {
+        "id": "drj-tigerhill",
+        "name": "Tiger Hill Sunrise",
+        "area": "Ghoom",
+        "lat": 26.989,
+        "lng": 88.285,
+        "tags": [
+          "mountains",
+          "cold",
+          "nature"
+        ],
+        "appeal": 4.8,
+        "cost": 300,
+        "visit_hours": 2.0,
+        "best_time": "sunrise",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Watch the first light hit Kanchenjunga, with Everest visible on clear days."
+      },
+      {
+        "id": "drj-batasia",
+        "name": "Batasia Loop & War Memorial",
+        "area": "Ghoom",
+        "lat": 27.013,
+        "lng": 88.249,
+        "tags": [
+          "heritage",
+          "mountains"
+        ],
+        "appeal": 4.3,
+        "cost": 20,
+        "visit_hours": 0.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A spiral rail loop with gardens and mountain views."
+      },
+      {
+        "id": "drj-ghoom",
+        "name": "Ghoom Monastery",
+        "area": "Ghoom",
+        "lat": 27.01,
+        "lng": 88.25,
+        "tags": [
+          "spiritual"
+        ],
+        "appeal": 4.1,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A 19th-century Tibetan Buddhist monastery with a large Maitreya Buddha."
+      },
+      {
+        "id": "drj-toytrain",
+        "name": "Toy Train Joy Ride",
+        "area": "Darjeeling station",
+        "lat": 27.039,
+        "lng": 88.263,
+        "tags": [
+          "heritage",
+          "mountains"
+        ],
+        "appeal": 4.6,
+        "cost": 1500,
+        "visit_hours": 2.0,
+        "best_time": "any",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A ride on the UNESCO-listed Darjeeling Himalayan Railway to Ghoom and back.",
+        "tip": "Book on IRCTC in advance."
+      },
+      {
+        "id": "drj-hmi",
+        "name": "HMI & Himalayan Zoo",
+        "area": "Jawahar Parbat",
+        "lat": 27.058,
+        "lng": 88.253,
+        "tags": [
+          "adventure",
+          "nature"
+        ],
+        "appeal": 4.5,
+        "cost": 100,
+        "visit_hours": 2.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [
+          "Thu"
+        ],
+        "description": "Everest museum plus red pandas and snow leopards at the zoo next door."
+      },
+      {
+        "id": "drj-happyvalley",
+        "name": "Happy Valley Tea Estate",
+        "area": "Lebong Cart Road",
+        "lat": 27.056,
+        "lng": 88.263,
+        "tags": [
+          "nature",
+          "food"
+        ],
+        "appeal": 4.2,
+        "cost": 100,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Walk the tea slopes and see how Darjeeling tea is processed."
+      },
+      {
+        "id": "drj-chowrasta",
+        "name": "Chowrasta & the Mall",
+        "area": "Chowrasta",
+        "lat": 27.043,
+        "lng": 88.266,
+        "tags": [
+          "shopping",
+          "food",
+          "relaxation"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "The town square for evening walks, old bakeries and woollens."
+      },
+      {
+        "id": "drj-peace",
+        "name": "Japanese Peace Pagoda",
+        "area": "Jalapahar",
+        "lat": 27.031,
+        "lng": 88.26,
+        "tags": [
+          "spiritual",
+          "relaxation"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "White stupa with calm grounds and valley views."
+      },
+      {
+        "id": "drj-ropeway",
+        "name": "Passenger Ropeway",
+        "area": "North Point",
+        "lat": 27.05,
+        "lng": 88.254,
+        "tags": [
+          "adventure",
+          "nature"
+        ],
+        "appeal": 4.0,
+        "cost": 250,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Cable car down over the tea gardens of the Rangeet valley."
+      },
+      {
+        "id": "drj-rockgarden",
+        "name": "Rock Garden",
+        "area": "Rangeet valley road",
+        "lat": 27.009,
+        "lng": 88.234,
+        "tags": [
+          "nature"
+        ],
+        "appeal": 3.8,
+        "cost": 50,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Terraced garden with a waterfall, down a steep winding road."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Bagdogra",
+        "code": "IXB",
+        "km": 70
+      },
+      "rail": {
+        "name": "New Jalpaiguri (NJP)",
+        "km": 70
+      },
+      "bus": true,
+      "bus_note": "From Siliguri/NJP, shared jeeps go up to Darjeeling in about 3 hours."
+    }
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "state": "Kerala",
+    "tagline": "Rolling tea hills, mist and wildlife",
+    "lat": 10.0889,
+    "lng": 77.0595,
+    "vibes": {
+      "nature": 1.0,
+      "mountains": 0.9,
+      "relaxation": 0.9,
+      "cold": 0.6,
+      "adventure": 0.5,
+      "food": 0.4,
+      "heritage": 0.2
+    },
+    "cost_level": 2,
+    "best_months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [
+      6,
+      7,
+      8
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Nearest airport is Kochi (about 4 hours by road). Nearest railway station is Aluva or Ernakulam.",
+    "getting_around": "Hire a cab for the day. The roads are winding, so plan sights by direction.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1200,
+          2500
+        ],
+        "mid": [
+          3000,
+          6000
+        ],
+        "premium": [
+          8000,
+          18000
+        ]
+      },
+      "food_per_day": {
+        "budget": 400,
+        "mid": 900,
+        "premium": 2000
+      },
+      "per_km": 22
+    },
+    "hotel_areas": [
+      {
+        "area": "Munnar town",
+        "best_for": "Budget stays, central for all sights",
+        "note": "Busy junction, fewer views."
+      },
+      {
+        "area": "Chithirapuram & Pallivasal",
+        "best_for": "Tea-estate views, mid-range resorts",
+        "note": "About 10 km from town."
+      },
+      {
+        "area": "Chinnakanal & Anachal",
+        "best_for": "Premium resorts and quiet stays",
+        "note": "Longer drives to sights."
+      }
+    ],
+    "tips": [
+      "Eravikulam National Park usually closes in February–March for the Nilgiri tahr calving season. Book tickets online when it's open.",
+      "Sightsee in the morning. Mist and rain often roll in by afternoon.",
+      "If you see wild elephants on the road, stay inside the vehicle and keep your distance.",
+      "Carry motion-sickness tablets if winding roads bother you.",
+      "Plastic is restricted in many areas. Carry a reusable bottle."
+    ],
+    "dont_miss": [
+      "Nilgiri tahr at Eravikulam",
+      "A sunrise jeep ride to Kolukkumalai",
+      "Fresh cardamom tea at a roadside stall",
+      "Homemade Munnar chocolates"
+    ],
+    "local_food": [
+      "Appam with stew",
+      "Puttu and kadala curry",
+      "Kerala sadya",
+      "Cardamom tea",
+      "Homemade chocolates"
+    ],
+    "attractions": [
+      {
+        "id": "mnr-eravikulam",
+        "name": "Eravikulam National Park",
+        "area": "Rajamala",
+        "lat": 10.145,
+        "lng": 77.061,
+        "tags": [
+          "nature",
+          "mountains"
+        ],
+        "appeal": 4.7,
+        "cost": 200,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Grassland hills, home to the endangered Nilgiri tahr.",
+        "tip": "Usually closed in February–March."
+      },
+      {
+        "id": "mnr-teamuseum",
+        "name": "Tea Museum",
+        "area": "Nallathanni",
+        "lat": 10.096,
+        "lng": 77.061,
+        "tags": [
+          "heritage",
+          "food"
+        ],
+        "appeal": 4.2,
+        "cost": 125,
+        "visit_hours": 1.0,
+        "best_time": "any",
+        "must_see": true,
+        "closed_days": [],
+        "description": "See Munnar's tea history and a live processing demo.",
+        "tip": "Check timings before you go."
+      },
+      {
+        "id": "mnr-mattupetty",
+        "name": "Mattupetty Dam",
+        "area": "Mattupetty",
+        "lat": 10.106,
+        "lng": 77.124,
+        "tags": [
+          "nature",
+          "relaxation"
+        ],
+        "appeal": 4.0,
+        "cost": 100,
+        "visit_hours": 1.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A reservoir with boating, surrounded by hills."
+      },
+      {
+        "id": "mnr-echo",
+        "name": "Echo Point",
+        "area": "Kundala road",
+        "lat": 10.118,
+        "lng": 77.155,
+        "tags": [
+          "nature"
+        ],
+        "appeal": 3.8,
+        "cost": 20,
+        "visit_hours": 0.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Lakeside spot known for its natural echo."
+      },
+      {
+        "id": "mnr-topstation",
+        "name": "Top Station",
+        "area": "Top Station",
+        "lat": 10.124,
+        "lng": 77.247,
+        "tags": [
+          "mountains",
+          "nature",
+          "cold"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "The highest viewpoint near Munnar, looking down into Tamil Nadu."
+      },
+      {
+        "id": "mnr-attukal",
+        "name": "Attukal Waterfalls",
+        "area": "Pallivasal",
+        "lat": 10.075,
+        "lng": 77.04,
+        "tags": [
+          "nature"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Waterfall between hills, at its best after the monsoon."
+      },
+      {
+        "id": "mnr-lockhart",
+        "name": "Lockhart Gap Viewpoint",
+        "area": "Devikulam road",
+        "lat": 10.045,
+        "lng": 77.113,
+        "tags": [
+          "nature",
+          "mountains"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "any",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Sweeping views of tea estates along the Kochi–Dhanushkodi highway."
+      },
+      {
+        "id": "mnr-kolukkumalai",
+        "name": "Kolukkumalai Sunrise",
+        "area": "Suryanelli",
+        "lat": 10.073,
+        "lng": 77.233,
+        "tags": [
+          "adventure",
+          "mountains",
+          "cold"
+        ],
+        "appeal": 4.7,
+        "cost": 800,
+        "visit_hours": 4.0,
+        "best_time": "sunrise",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Off-road jeep ride up to one of the highest tea estates for sunrise."
+      },
+      {
+        "id": "mnr-kathakali",
+        "name": "Kathakali Show",
+        "area": "Pallivasal",
+        "lat": 10.048,
+        "lng": 77.052,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.2,
+        "cost": 350,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Kerala's classical dance-drama, often with a make-up demo before the show."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Kochi",
+        "code": "COK",
+        "km": 110
+      },
+      "rail": {
+        "name": "Aluva (AWY)",
+        "km": 110
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "tagline": "Lakes, palaces and rooftop sunsets",
+    "lat": 24.5854,
+    "lng": 73.7125,
+    "vibes": {
+      "heritage": 0.9,
+      "relaxation": 0.9,
+      "food": 0.6,
+      "shopping": 0.6,
+      "spiritual": 0.3,
+      "nature": 0.4,
+      "nightlife": 0.3
+    },
+    "cost_level": 2,
+    "best_months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "avoid_months": [
+      4,
+      5,
+      6
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Maharana Pratap Airport, or trains to Udaipur City.",
+    "getting_around": "Walk the old city and ghats. Use autos for Sajjangarh and Fateh Sagar.",
+    "costs": {
+      "stay": {
+        "budget": [
+          1200,
+          2500
+        ],
+        "mid": [
+          3000,
+          6500
+        ],
+        "premium": [
+          9000,
+          25000
+        ]
+      },
+      "food_per_day": {
+        "budget": 500,
+        "mid": 1100,
+        "premium": 2500
+      },
+      "per_km": 15
+    },
+    "hotel_areas": [
+      {
+        "area": "Lal Ghat & Gangaur Ghat",
+        "best_for": "Lake-view guesthouses in the old city",
+        "note": "Walk to City Palace."
+      },
+      {
+        "area": "Hanuman Ghat & Ambrai",
+        "best_for": "Quieter lakeside stays",
+        "note": "Across the footbridge."
+      },
+      {
+        "area": "Fateh Sagar area",
+        "best_for": "Newer mid-range hotels",
+        "note": "Need an auto for the old city."
+      },
+      {
+        "area": "Lake-palace resorts",
+        "best_for": "Splurge stays",
+        "note": "Book far ahead in winter."
+      }
+    ],
+    "tips": [
+      "Sunset boat rides on Lake Pichola sell out on weekends. Book in the afternoon.",
+      "Reach the Bagore ki Haveli dance show about 30 minutes early for good seats.",
+      "Old city lanes are narrow. Walking or autos are easier than cars.",
+      "Dress modestly at Jagdish Temple.",
+      "Bargain for miniature paintings and textiles."
+    ],
+    "dont_miss": [
+      "Sunset on Lake Pichola",
+      "The folk dance show at Bagore ki Haveli",
+      "Evening view from Ambrai Ghat",
+      "A rooftop dinner looking at the lake"
+    ],
+    "local_food": [
+      "Dal baati churma",
+      "Gatte ki sabzi",
+      "Laal maas",
+      "Kachori",
+      "Mawa kachori"
+    ],
+    "attractions": [
+      {
+        "id": "udr-citypalace",
+        "name": "City Palace",
+        "area": "Old City",
+        "lat": 24.5764,
+        "lng": 73.6835,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.7,
+        "cost": 300,
+        "visit_hours": 2.5,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A huge palace complex on the banks of Lake Pichola."
+      },
+      {
+        "id": "udr-pichola",
+        "name": "Lake Pichola Boat Ride",
+        "area": "Old City",
+        "lat": 24.572,
+        "lng": 73.679,
+        "tags": [
+          "relaxation"
+        ],
+        "appeal": 4.7,
+        "cost": 500,
+        "visit_hours": 1.0,
+        "best_time": "sunset",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Boat past the Lake Palace and Jag Mandir at sunset."
+      },
+      {
+        "id": "udr-jagdish",
+        "name": "Jagdish Temple",
+        "area": "Old City",
+        "lat": 24.5795,
+        "lng": 73.684,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.3,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Carved 17th-century Vishnu temple near the palace."
+      },
+      {
+        "id": "udr-bagore",
+        "name": "Bagore ki Haveli Dance Show",
+        "area": "Gangaur Ghat",
+        "lat": 24.58,
+        "lng": 73.682,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 150,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": true,
+        "closed_days": [],
+        "description": "An hour of Rajasthani folk dance and puppetry in an old haveli."
+      },
+      {
+        "id": "udr-ambrai",
+        "name": "Ambrai Ghat",
+        "area": "Hanuman Ghat",
+        "lat": 24.579,
+        "lng": 73.681,
+        "tags": [
+          "relaxation"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Ghat with the best view of the lit-up City Palace."
+      },
+      {
+        "id": "udr-sajjangarh",
+        "name": "Sajjangarh Monsoon Palace",
+        "area": "Sajjangarh",
+        "lat": 24.595,
+        "lng": 73.642,
+        "tags": [
+          "heritage",
+          "nature"
+        ],
+        "appeal": 4.3,
+        "cost": 200,
+        "visit_hours": 2.0,
+        "best_time": "sunset",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Hilltop palace with views across the lakes and Aravallis."
+      },
+      {
+        "id": "udr-fatehsagar",
+        "name": "Fateh Sagar Lake",
+        "area": "Fateh Sagar",
+        "lat": 24.6,
+        "lng": 73.676,
+        "tags": [
+          "relaxation",
+          "food"
+        ],
+        "appeal": 4.2,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Lakeside promenade with snacks, boating and a local crowd."
+      },
+      {
+        "id": "udr-saheliyon",
+        "name": "Saheliyon ki Bari",
+        "area": "Fateh Sagar",
+        "lat": 24.603,
+        "lng": 73.688,
+        "tags": [
+          "heritage",
+          "nature"
+        ],
+        "appeal": 4.0,
+        "cost": 10,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Garden of the maidens, with fountains and marble elephants."
+      },
+      {
+        "id": "udr-hathipol",
+        "name": "Hathi Pol Bazaar",
+        "area": "Old City",
+        "lat": 24.585,
+        "lng": 73.688,
+        "tags": [
+          "shopping"
+        ],
+        "appeal": 3.9,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Market for miniature paintings, mojaris and textiles."
+      },
+      {
+        "id": "udr-kumbhalgarh",
+        "name": "Kumbhalgarh Fort",
+        "area": "Rajsamand",
+        "lat": 25.149,
+        "lng": 73.587,
+        "tags": [
+          "heritage",
+          "adventure"
+        ],
+        "appeal": 4.6,
+        "cost": 40,
+        "visit_hours": 3.0,
+        "best_time": "morning",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A hill fort with walls over 30 km long, about 2.5 hours from the city."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Udaipur",
+        "code": "UDR",
+        "km": 22
+      },
+      "rail": {
+        "name": "Udaipur City (UDZ)",
+        "km": 3
+      },
+      "bus": true
+    }
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "tagline": "Boulder hills and the ruins of Vijayanagara",
+    "lat": 15.335,
+    "lng": 76.46,
+    "vibes": {
+      "heritage": 1.0,
+      "spiritual": 0.7,
+      "adventure": 0.5,
+      "relaxation": 0.6,
+      "nature": 0.5,
+      "mountains": 0.3,
+      "shopping": 0.2
+    },
+    "cost_level": 1,
+    "best_months": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [
+      4,
+      5,
+      6
+    ],
+    "peak_months": [
+      12,
+      1
+    ],
+    "ideal_days": [
+      2,
+      3
+    ],
+    "getting_there": "Train to Hosapete, then 13 km by auto or bus. Nearest airports are Hubballi and Bengaluru.",
+    "getting_around": "Rent a bicycle or scooter, or hire an auto for the day. Some ruins are only reachable on foot.",
+    "costs": {
+      "stay": {
+        "budget": [
+          800,
+          1800
+        ],
+        "mid": [
+          2000,
+          4500
+        ],
+        "premium": [
+          6000,
+          15000
+        ]
+      },
+      "food_per_day": {
+        "budget": 350,
+        "mid": 700,
+        "premium": 1500
+      },
+      "per_km": 15
+    },
+    "hotel_areas": [
+      {
+        "area": "Hampi Bazaar",
+        "best_for": "Closest to the ruins, basic guesthouses",
+        "note": "Limited choice."
+      },
+      {
+        "area": "Virupapur Gaddi (across the river)",
+        "best_for": "Chill cafes and hammocks",
+        "note": "Boats stop at dusk and in high water."
+      },
+      {
+        "area": "Kamalapura",
+        "best_for": "Quieter, heritage resorts",
+        "note": "Near the Royal Enclosure."
+      },
+      {
+        "area": "Hosapete",
+        "best_for": "More hotels, easy train access",
+        "note": "About 13 km away."
+      }
+    ],
+    "tips": [
+      "Keep your Vittala Temple ticket. It is usually valid the same day for the Lotus Mahal area too.",
+      "River crossings stop at dusk and when the water is high. Plan your return.",
+      "It's rocky and hot. Carry water, a cap and sunscreen, and wear good shoes.",
+      "Remove footwear inside temples.",
+      "Don't climb on the monuments or carved pillars."
+    ],
+    "dont_miss": [
+      "The stone chariot at Vittala Temple",
+      "Sunset from Hemakuta Hill",
+      "A coracle ride on the Tungabhadra",
+      "Sunrise climb up Matanga Hill"
+    ],
+    "local_food": [
+      "North Karnataka meals",
+      "Jolada rotti",
+      "Banana pancakes at cafes",
+      "Fresh coconut water"
+    ],
+    "attractions": [
+      {
+        "id": "hmp-virupaksha",
+        "name": "Virupaksha Temple",
+        "area": "Hampi Bazaar",
+        "lat": 15.335,
+        "lng": 76.46,
+        "tags": [
+          "spiritual",
+          "heritage"
+        ],
+        "appeal": 4.7,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "A living temple from the 7th century with a tall gopuram."
+      },
+      {
+        "id": "hmp-vittala",
+        "name": "Vittala Temple & Stone Chariot",
+        "area": "Vittala",
+        "lat": 15.342,
+        "lng": 76.474,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.9,
+        "cost": 40,
+        "visit_hours": 2.0,
+        "best_time": "morning",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Hampi's most famous temple with musical pillars and the stone chariot."
+      },
+      {
+        "id": "hmp-hemakuta",
+        "name": "Hemakuta Hill Sunset",
+        "area": "Hampi Bazaar",
+        "lat": 15.333,
+        "lng": 76.459,
+        "tags": [
+          "nature",
+          "relaxation"
+        ],
+        "appeal": 4.6,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "sunset",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Small temples on a rocky hill, perfect for the sunset."
+      },
+      {
+        "id": "hmp-matanga",
+        "name": "Matanga Hill Sunrise",
+        "area": "Hampi Bazaar",
+        "lat": 15.338,
+        "lng": 76.463,
+        "tags": [
+          "adventure",
+          "nature",
+          "mountains"
+        ],
+        "appeal": 4.6,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "sunrise",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A short steep climb for a 360° view of the ruins at dawn."
+      },
+      {
+        "id": "hmp-royal",
+        "name": "Royal Enclosure & Stepped Tank",
+        "area": "Royal Centre",
+        "lat": 15.318,
+        "lng": 76.47,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 1.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Mahanavami platform, carved panels and a geometric stepped tank."
+      },
+      {
+        "id": "hmp-lotus",
+        "name": "Lotus Mahal & Elephant Stables",
+        "area": "Royal Centre",
+        "lat": 15.321,
+        "lng": 76.473,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.5,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": true,
+        "closed_days": [],
+        "description": "Indo-Islamic pavilion and the long domed stables for royal elephants."
+      },
+      {
+        "id": "hmp-queensbath",
+        "name": "Queen's Bath",
+        "area": "Royal Centre",
+        "lat": 15.317,
+        "lng": 76.476,
+        "tags": [
+          "heritage"
+        ],
+        "appeal": 4.0,
+        "cost": 0,
+        "visit_hours": 0.5,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "A royal bathing hall with arched corridors."
+      },
+      {
+        "id": "hmp-bazaar",
+        "name": "Hampi Bazaar Street",
+        "area": "Hampi Bazaar",
+        "lat": 15.3355,
+        "lng": 76.4615,
+        "tags": [
+          "shopping"
+        ],
+        "appeal": 3.8,
+        "cost": 0,
+        "visit_hours": 1.0,
+        "best_time": "evening",
+        "must_see": false,
+        "closed_days": [],
+        "description": "The old chariot street lined with ruined pavilions and small shops."
+      },
+      {
+        "id": "hmp-coracle",
+        "name": "Coracle Ride",
+        "area": "Tungabhadra river",
+        "lat": 15.341,
+        "lng": 76.466,
+        "tags": [
+          "adventure",
+          "relaxation"
+        ],
+        "appeal": 4.4,
+        "cost": 300,
+        "visit_hours": 1.0,
+        "best_time": "afternoon",
+        "must_see": false,
+        "closed_days": [],
+        "description": "Float on the river in a round bamboo basket boat."
+      },
+      {
+        "id": "hmp-anjanadri",
+        "name": "Anjanadri Hill",
+        "area": "Anegundi",
+        "lat": 15.353,
+        "lng": 76.471,
+        "tags": [
+          "spiritual",
+          "adventure"
+        ],
+        "appeal": 4.4,
+        "cost": 0,
+        "visit_hours": 2.0,
+        "best_time": "sunset",
+        "must_see": false,
+        "closed_days": [],
+        "description": "About 570 steps up to the Hanuman temple, with huge views."
+      }
+    ],
+    "transport": {
+      "airport": {
+        "name": "Hubballi",
+        "code": "HBX",
+        "km": 160,
+        "note": "Bengaluru (BLR) has far more flights but is about 340 km away."
+      },
+      "rail": {
+        "name": "Hosapete (HPT)",
+        "km": 13
+      },
+      "bus": true
+    }
+  }
+]
